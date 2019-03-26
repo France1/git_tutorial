@@ -1,3 +1,5 @@
 test content for git tutorial
 
 test change to content
+
+new changes to be removed
