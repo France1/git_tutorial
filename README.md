@@ -81,8 +81,10 @@ git checkout master
 git merge branch-experiment
 nano CommitTest.txt
 ```
-
-
+Delete `branch-experiment`
+```
+git branch -d branch-experiment
+```
 
 
 
