@@ -30,6 +30,36 @@ git push -u origin master
 git status
 ```
 
+Modify file and commit changes *locally*:
+```
+nano CommitTest.txt 
+# add a line that will be removed later on
+git add .
+git commit -am 'added changes to be removed'
+```
+
+Navigate history of commit and remove last changes by returning to the previous pointer (preferred "undo" method for local commit)
+```
+git log --oneline
+git status
+git reset --hard 3730f63
+```
+
+Modify file and push changes to *remote*: 
+```
+nano CommitTest.txt 
+# add a line that will be removed later on
+git add .
+git commit -am 'added changes to be removed'
+git push
+```
+
+Remove last changes (preferred "undo" method for public commit), then verify history of commit:
+```
+git revert HEAD
+git log --oneline
+```
+
 
 
 
