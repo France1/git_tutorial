@@ -34,7 +34,6 @@ git status
 Modify file and commit changes *locally*:
 ```
 echo "test content to be removed" >> CommitTest.txt
-git add .
 git commit -am 'added changes to be removed'
 ```
 
@@ -48,7 +47,6 @@ git reset --hard 3730f63
 Modify file and push changes to *remote*: 
 ```
 echo "test content to be removed" >> CommitTest.txt
-git add .
 git commit -am 'added changes to be removed'
 git push
 ```
@@ -68,7 +66,6 @@ git checkout branch-experiment
 Modify file within branch 
 ```
 echo "test content added in branch" >> CommitTest.txt
-git add .
 git commit -am 'added changes in branch-experiment'
 ```
 Push change to remote, then verify that the new branch exists in [remote](https://github.com/France1/git_tutorial)
