@@ -1,8 +1,7 @@
 # git_tutorial
 Git tutorial based on Atlassian "Getting Started" [guide](https://it.atlassian.com/git/tutorials/setting-up-a-repository)
 
-## Create repository
-
+### Create repository
 Create a new Git repository locally
 ```
 mkdir git_tutorial
@@ -31,7 +30,7 @@ Push changes to remote and check that repo is up to date
 git push -u origin master
 git status
 ```
-
+### Add and remove changes
 Modify file and commit changes *locally*:
 ```
 nano CommitTest.txt 
