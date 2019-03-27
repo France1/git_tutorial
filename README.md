@@ -33,8 +33,7 @@ git status
 ### Add and remove changes
 Modify file and commit changes *locally*:
 ```
-nano CommitTest.txt 
-# add a line that will be removed later on
+echo "test content to be removed" >> CommitTest.txt
 git add .
 git commit -am 'added changes to be removed'
 ```
@@ -48,8 +47,7 @@ git reset --hard 3730f63
 
 Modify file and push changes to *remote*: 
 ```
-nano CommitTest.txt 
-# add a line that will be removed later on
+echo "test content to be removed" >> CommitTest.txt
 git add .
 git commit -am 'added changes to be removed'
 git push
