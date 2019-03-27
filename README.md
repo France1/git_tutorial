@@ -72,11 +72,11 @@ Push change to remote, then verify that the new branch exists in [remote](https:
 ```
 git push --set-upstream origin branch-experiment
 ```
-Switch to the receiving branch, merge `branch-experiment`, then verify `CommitText.txt` ia modified:
+Switch to the receiving branch, merge `branch-experiment`, then verify `CommitTest.txt` is modified:
 ```
 git checkout master
 git merge branch-experiment
-nano CommitTest.txt
+cat CommitTest.txt
 ```
 Delete `branch-experiment`
 ```
