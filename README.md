@@ -39,7 +39,7 @@ git add .
 git commit -am 'added changes to be removed'
 ```
 
-Navigate history of commit and remove last changes by returning to the previous pointer (preferred "undo" method for local commit)
+Navigate history of commit and remove last changes by returning to the previous pointer `3730f63` (preferred "undo" method for local commit)
 ```
 git log --oneline
 git status
