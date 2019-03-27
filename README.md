@@ -58,6 +58,23 @@ Remove last changes (preferred "undo" method for public commit), then verify his
 git revert HEAD
 git log --oneline
 ```
+### Create and merge branches
+Create a branch called `branch-experiment`, list all branches, then switch to the new branch:
+```
+branch branch-experiment
+git branch
+git checkout branch-experiment
+```
+Modify file within branch 
+```
+echo "test content added in branch" >> CommitTest.txt
+git add .
+git commit -am 'added changes in branch-experiment'
+```
+Push change to remote, then verify that the new branch exist in (remote)[https://github.com/France1/git_tutorial]
+```
+git push --set-upstream origin branch-experiment
+```
 
 
 
