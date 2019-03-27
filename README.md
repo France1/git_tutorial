@@ -71,7 +71,7 @@ echo "test content added in branch" >> CommitTest.txt
 git add .
 git commit -am 'added changes in branch-experiment'
 ```
-Push change to remote, then verify that the new branch exist in [remote](https://github.com/France1/git_tutorial)
+Push change to remote, then verify that the new branch exists in [remote](https://github.com/France1/git_tutorial)
 ```
 git push --set-upstream origin branch-experiment
 ```
