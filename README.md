@@ -8,3 +8,11 @@ cd git_tutorial/
 git init
 ```
 
+Create a text file with some content
+```
+echo "test content for git tutorial" >> CommitTest.txt
+```
+
+
+
+
