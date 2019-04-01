@@ -24,7 +24,7 @@ Add a new remote repository called `origin` to the local Git repository
 ```
 git remote add origin https://github.com/France1/git_tutorial.git
 ```
-
+Create a [new repository](https://help.github.com/en/articles/creating-a-new-repository) in GitHub called `git_tutorial`.
 Push changes to remote and check that repo is up to date
 ```
 git push -u origin master
