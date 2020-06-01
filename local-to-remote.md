@@ -3,8 +3,8 @@ Based on this [Stack Overflow answer](https://stackoverflow.com/questions/414293
 
 1. Create temporary bare git repo in remote server
 ```
-mkdir /temp/bare
-cd /temp/bare
+mkdir /tmp/bare
+cd /tmp/bare
 git init --bare
 ```
 
